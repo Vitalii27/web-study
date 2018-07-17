@@ -1,0 +1,94 @@
+/* pop-up.scss */
+.pop-up-wrapper {
+  display: none;
+}
+
+.pop-up-is-showed {
+  overflow: hidden !important; // stop scroll when pop-up is open
+}
+.mfp-bg {
+  background-color: rgba($black, .7);
+}
+/* overlay at start */
+.mfp-fade.mfp-bg {
+  opacity: 0;
+  transition: all 0.15s ease-out;
+}
+
+/* overlay animate in */
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 1;
+}
+
+/* overlay animate out */
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0;
+}
+
+/* content at start */
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+  transition: all 0.15s ease-out;
+  transform: translateY(50px);
+}
+
+/* content animate it */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+/* content animate out */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: .1;
+  transform: translateY(50px);
+}
+
+.pop-up {
+  width: 100%;
+  max-width: 50rem;
+  margin: 0 auto;
+  position: relative;
+  background-color: #ccc;
+  border-radius: .4rem;
+  overflow: hidden;
+  //opacity: 0;
+  //transform: translateY(-20px);
+  transition: all .15s;
+  padding:2.5rem;
+  .mfp-close {
+    font-size: 3.5rem;
+  }
+}
+
+.mfp-close {
+  position: absolute;
+  display: inline-block;
+  right: -24px;
+  top: -8px;
+  width: 3.5rem;
+  height: 3.5rem;
+  color: #000;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  text-shadow: none;
+  appearance: button;
+  padding: 5px;
+  font-size:  2rem;
+}
+
+.pop-up-contact_title{
+  color: $white;
+  font-size: 2.4rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+}
+
+.form-popup{
+  position: relative;
+  max-width: 340px;
+  width: 100%;
+  margin: 0 auto;
+}
+/* pop-up.scss end */

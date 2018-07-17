@@ -1,0 +1,41 @@
+///* VENDOR */
+//@import "partials/vendor/normalize";
+////@import "partials/vendor/clearfix";
+//@import "partials/vendor/bootstrap-4/bootstrap-grid";
+///* VENDOR END */
+///* -------------------- */
+///* VARIABLES */
+//@import "partials/common/variables";
+//@import "partials/common/fonts";
+///* VARIABLES END */
+///* COMMON */
+//@import "partials/common/best-practices";
+//@import "partials/common/common";
+//@import "partials/common/_typography";
+//@import "partials/common/service-classes";
+///* COMMON END */
+///* -------------------- */
+///* LAYOUT */
+//@import "partials/layout/layout";
+///* LAYOUT END */
+///* -------------------- */
+/* BLOCKS */
+@import "partials/variebles";
+
+@import "partials/swipe-menu";
+@import "partials/menu-btn";
+@import "partials/popup";
+@import "partials/app";
+@import "partials/libs";
+
+
+
+/* BLOCKS END*/
+
+/* -------------------- */
+
+/* GENERAL */
+
+/* GENERAL END */
+
+/* -------------------- */

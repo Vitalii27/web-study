@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="assets/css/libs.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/fonts.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/app.css">
+    <title>Навигатор - WEBSTUDY</title>
+  </head>
+  <body><!--[if lte IE 9]>
+    <p class="browsehappy">Вы используете <strong>устаревший</strong> браузер. Пожалуйста <a href="http://browsehappy.com/" target="_blank">обновите ваш браузер</a> чтобы воспользоваться всем функционалом сайта.</p><![endif]-->
+    <main class="main">
+      <div class="menu-icon" id="menu-control"><span></span><span></span><span></span></div>
+      <div class="b-side">
+        <div class="b-logo"><a href="index.html"><img src="assets/img/logo.png" alt="company name"></a></div>
+        <div class="b-services"><a class="b-services__item" href="services.html">
+            <svg class="icon icon-globe">
+              <use xlink:href="assets/img/sprite.svg#globe"></use>
+            </svg> Создание сайтов</a><a class="b-services__item" href="seo.html">
+            <svg class="icon icon-targeting">
+              <use xlink:href="assets/img/sprite.svg#targeting"></use>
+            </svg> Продвижение сайтов</a><a class="b-services__item" href="#">
+            <svg class="icon icon-puzzle">
+              <use xlink:href="assets/img/sprite.svg#puzzle"></use>
+            </svg> Фирменный стиль</a><a class="b-services__item" href="#">
+            <svg class="icon icon-crm">
+              <use xlink:href="assets/img/sprite.svg#crm"></use>
+            </svg> CRM</a></div>
+      </div>
+      <!-- .b-side-->
+      <div class="grid grid--container">
+        <h1>Навигатор</h1>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="seo.html">Seo</a></li>
+          <li><a href="services.html">Услуги</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+          <li><a href="about.html">О нас</a></li>
+          <li><a href="page.html">Страница</a></li>
+        </ul>
+      </div>
+      <!-- .grid-->
+    </main>
+    <footer class="footer">
+      <div class="row row--gutters">
+        <div class="col col--xl-2 col--xl-offset-2 col--lg-2 col--lg-offset-1 col--xs-6">
+          <h4 class="f-title">Типы сайтов</h4>
+          <ul class="f-list">
+            <li><a href="#">Landing Page</a></li>
+            <li><a href="#">Корпоративный сайт</a></li>
+            <li><a href="#">Сайт-визитка</a></li>
+            <li><a href="#">Интернет-магазин</a></li>
+          </ul>
+          <!-- .f-list-->
+        </div>
+        <!-- .col-->
+        <div class="col col--xl-2 col--lg-2 col--xs-6">
+          <h4 class="f-title">Услуги</h4>
+          <ul class="f-list">
+            <li><a href="#">Создание сайтов</a></li>
+            <li><a href="#">Продвижение сайтов</a></li>
+            <li><a href="#">Фирменный стиль</a></li>
+            <li><a href="#">CRM</a></li>
+          </ul>
+          <!-- .f-list-->
+        </div>
+        <!-- .col-->
+        <div class="col col--xl-2 col--lg-2 col--xs-6">
+          <h4 class="f-title">О компании</h4>
+          <ul class="f-list">
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Портфолио</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Стоимость</a></li>
+          </ul>
+          <!-- .f-list-->
+        </div>
+        <!-- .col-->
+        <div class="col col--xl-3 col--lg-3 col--xs-6">
+          <h4 class="f-title">Контактная информация</h4>
+          <div class="f-contacts">
+            <div class="f-contacts__item">Телефон: <a href="tel:">8(800) 555-22-22</a></div>
+            <div class="f-contacts__item">Адрес: г. Москва, ул. Сущевский вал, 13</div>
+            <div class="f-contacts__item">E-mail: <a href="mailto:">info@yandex.ru</a></div>
+          </div>
+        </div>
+        <!-- .col-->
+      </div>
+      <!-- .row-->
+    </footer>
+    <!-- .FOOTER-->
+    <div class="hide modal">
+      <div class="modal-inner"><a data-modal-close href="javascript:;">
+          <svg class="icon icon-close">
+            <use xlink:href="assets/img/sprite.svg#close"></use>
+          </svg></a>
+        <div class="modal-content"></div>
+      </div>
+    </div>
+    <!-- .modal-->
+    <div class="hide" id="callback">
+      <div class="b-modal">
+        <div class="b-modal__title">Заказать звонок</div>
+        <form class="b-modal__form b-form" action="javascript:;" data-validate>
+          <div class="b-form__group">
+            <input class="b-form__input" type="text" name="name" placeholder="Ваше имя" required>
+          </div>
+          <div class="b-form__group">
+            <input class="b-form__input" type="tel" name="tel" placeholder="Телефон" required>
+          </div>
+          <div class="b-form__group">
+            <label class="checkbox">
+              <input class="checkbox__input hidden" type="checkbox" name="agreement" required><span class="checkbox__label">
+                <svg class="icon icon-check">
+                  <use xlink:href="assets/img/sprite.svg#check"></use>
+                </svg> Согласен с <a href="#">Политикой конфиденциальности</a></span>
+            </label>
+          </div>
+          <div class="b-form__group">
+            <button class="btn btn--round btn--border-dark" type="submit">Оставить заявку</button>
+          </div>
+        </form>
+      </div>
+      <!-- .b-modal-->
+    </div>
+    <script src="assets/js/libs.min.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
