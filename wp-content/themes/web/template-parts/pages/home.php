@@ -262,10 +262,10 @@
                                     </div>
                                 <?php endif; ?>
                                 <?php if (get_field('home_four_first_title')): ?>
-                                <div class="b-workpath__body">
-                                    <div class="b-workpath__title"><?php the_field('home_four_first_title') ?></div>
-                                    <?php the_field('home_four_first_description') ?>
-                                </div>
+                                    <div class="b-workpath__body">
+                                        <div class="b-workpath__title"><?php the_field('home_four_first_title') ?></div>
+                                        <?php the_field('home_four_first_description') ?>
+                                    </div>
                                 <?php endif; ?>
                             </div>
                             <!-- .b-workpath-->
@@ -597,58 +597,39 @@
     <!-- .S-PORTFOLIO-->
     <div class="s-result">
         <div class="row">
-            <div class="col col--xxl-6 col--xxl-offset-3 col--xl-8 col--xl-offset-2 col--lg-8 col--lg-offset-2 col--md-8 col--md-offset-2 col--sm-10 col--sm-offset-1">
-                <div class="e-title text--xs-center">Что вы получите в результате сотрудничества с нами ?</div>
-            </div>
+            <?php if (get_field('home_profit')): ?>
+                <div class="col col--xxl-6 col--xxl-offset-3 col--xl-8 col--xl-offset-2 col--lg-8 col--lg-offset-2 col--md-8 col--md-offset-2 col--sm-10 col--sm-offset-1">
+                    <div class="e-title text--xs-center"> <?php the_field('home_profit') ?></div>
+                </div>
+
+            <?php endif; ?>
             <!-- .col-->
             <div class="col col--xxl-8 col--xxl-offset-2 col--xl-10 col--xl-offset-1">
                 <div class="b-results row">
-                    <div class="col col--lg-3 col--sm-6 col--sm-flex">
-                        <div class="b-result">
-                            <svg class="icon icon-idea">
-                                <use xlink:href="assets/img/sprite.svg#idea"></use>
-                            </svg>
-                            <div class="b-result__title">Продающий сайт</div>
-                            <p>Продающий, удобный в использовании сайт. Вам будет поступать от 15 заявок в день!</p>
-                        </div>
-                        <!-- .b-result-->
-                    </div>
-                    <!-- .col-->
-                    <div class="col col--lg-3 col--sm-6 col--sm-flex">
-                        <div class="b-result">
-                            <svg class="icon icon-newspaper">
-                                <use xlink:href="assets/img/sprite.svg#newspaper"></use>
-                            </svg>
-                            <div class="b-result__title">Выгодная презентация</div>
-                            <p>Благодаря уникальному дизайну сайт будет презентовать Ваш бизнес в наиболее выгодном
-                                свете</p>
-                        </div>
-                        <!-- .b-result-->
-                    </div>
-                    <!-- .col-->
-                    <div class="col col--lg-3 col--sm-6 col--sm-flex">
-                        <div class="b-result">
-                            <svg class="icon icon-stats">
-                                <use xlink:href="assets/img/sprite.svg#stats"></use>
-                            </svg>
-                            <div class="b-result__title">Успешный бизнес</div>
-                            <p>Продающий, удобный в использовании сайт.</p>
-                        </div>
-                        <!-- .b-result-->
-                    </div>
-                    <!-- .col-->
-                    <div class="col col--lg-3 col--sm-6 col--sm-flex">
-                        <div class="b-result">
-                            <svg class="icon icon-full">
-                                <use xlink:href="assets/img/sprite.svg#full"></use>
-                            </svg>
-                            <div class="b-result__title">Бизнес под ключ</div>
-                            <p>Вы позволите себе быть успешным бизнесменом!</p><a class="b-result__link" href="#">
-                                <div class="inner">Заказать бизнес</div>
-                            </a>
-                        </div>
-                        <!-- .b-result-->
-                    </div>
+                    <?php if (have_rows('home_profit_reap')): ?>
+                        <?php while (have_rows('home_profit_reap')):
+                            the_row(); ?>
+
+                            <div class="col col--lg-3 col--sm-6 col--sm-flex">
+                                <div class="b-result">
+                                    <?php if (get_sub_field('home_profit_icon')): ?>
+                                        <img class="icon icon-full" src="<?php the_sub_field('home_profit_icon') ?>"
+                                             alt="img">
+                                    <?php endif; ?>
+                                    <?php if (get_sub_field('home_profit_title')): ?>
+                                        <div class="b-result__title"><?php the_sub_field('home_profit_title') ?></div>
+                                    <?php endif; ?>
+                                    <?php the_sub_field('home_profit_desc') ?>
+                                    <?php if (get_sub_field('home_profit_btn_text')): ?>
+                                        <a class="b-result__link" href="<?php the_sub_field('home_profit_link_btn') ?>">
+                                            <div class="inner"><?php the_sub_field('home_profit_btn_text') ?></div>
+                                        </a>
+                                    <?php endif; ?>
+                                </div>
+                                <!-- .b-result-->
+                            </div>
+                        <?php endwhile; ?>
+                    <?php endif; ?>
                     <!-- .col-->
                 </div>
                 <!-- .b-results-->
@@ -659,71 +640,43 @@
     </div>
     <!-- .S-RESULT-->
     <div class="section section--colored">
-        <div class="s-worktypes">
+        <div class="s-worktypes" style="background-image:url( <?php the_field('home_business_bg') ?>);">
             <div class="row">
                 <div class="col col--xxl-8 col--xxl-offset-2 col--xl-10 col--xl-offset-1">
-                    <div class="e-title e-title--light text--xs-center">Создаем бизнес-сайты</div>
+                    <?php if (get_field('home_business_title')): ?>
+                        <div class="e-title e-title--light text--xs-center"><?php the_field('home_business_title') ?></div>
+                    <?php endif; ?>
                     <div class="b-worktypes row">
-                        <div class="col col--xl-3 col--sm-6 col--sm-flex">
-                            <div class="b-worktype">
-                                <div class="b-worktype__header">
-                                    <svg class="icon icon-fly">
-                                        <use xlink:href="assets/img/sprite.svg#fly"></use>
-                                    </svg>
-                                    <div class="b-worktype__title">Landing page</div>
+                        <?php if (have_rows('home_business_reap')): ?>
+                            <?php while (have_rows('home_business_reap')):
+                                the_row(); ?>
+                                <div class="col col--xl-3 col--sm-6 col--sm-flex">
+                                    <div class="b-worktype">
+                                        <div class="b-worktype__header">
+                                            <?php if (get_sub_field('home_business_icon')): ?>
+                                                <img class="icon"
+                                                     src="<?php the_sub_field('home_business_icon') ?>"
+                                                     alt="img">
+                                            <?php endif; ?>
+                                            <?php if (get_sub_field('home_business_title')): ?>
+                                                <div class="b-worktype__title"><?php the_sub_field('home_business_title') ?></div>
+                                            <?php endif; ?>
+                                        </div>
+                                        <?php if (get_sub_field('home_business_btn_text')): ?>
+                                            <div class="b-worktype__desc">
+                                                <a class="b-worktype__link"
+                                                   href="<?php the_sub_field('home_business_btn_link') ?>"><?php the_sub_field('home_business_btn_text') ?></a>
+                                                <p><?php the_sub_field('home_business_desc') ?></p>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+                                    <!-- .b-worktype-->
                                 </div>
-                                <div class="b-worktype__desc"><a class="b-worktype__link" href="#">Подробнее</a>
-                                    <p>Каждый веб-разработчик знает, что такое текст-«рыба».</p>
-                                </div>
-                            </div>
-                            <!-- .b-worktype-->
-                        </div>
+                            <?php endwhile; ?>
+                        <?php endif; ?>
                         <!-- .col-->
-                        <div class="col col--xl-3 col--sm-6 col--sm-flex">
-                            <div class="b-worktype">
-                                <div class="b-worktype__header">
-                                    <svg class="icon icon-corporate">
-                                        <use xlink:href="assets/img/sprite.svg#corporate"></use>
-                                    </svg>
-                                    <div class="b-worktype__title">Корпоративный сайт</div>
-                                </div>
-                                <div class="b-worktype__desc"><a class="b-worktype__link" href="#">Подробнее</a>
-                                    <p>Каждый веб-разработчик знает, что такое текст-«рыба».</p>
-                                </div>
-                            </div>
-                            <!-- .b-worktype-->
-                        </div>
-                        <!-- .col-->
-                        <div class="col col--xl-3 col--sm-6 col--sm-flex">
-                            <div class="b-worktype">
-                                <div class="b-worktype__header">
-                                    <svg class="icon icon-visitka">
-                                        <use xlink:href="assets/img/sprite.svg#visitka"></use>
-                                    </svg>
-                                    <div class="b-worktype__title">Сайт-визитка</div>
-                                </div>
-                                <div class="b-worktype__desc"><a class="b-worktype__link" href="#">Подробнее</a>
-                                    <p>Каждый веб-разработчик знает, что такое текст-«рыба».</p>
-                                </div>
-                            </div>
-                            <!-- .b-worktype-->
-                        </div>
-                        <!-- .col-->
-                        <div class="col col--xl-3 col--sm-6 col--sm-flex">
-                            <div class="b-worktype">
-                                <div class="b-worktype__header">
-                                    <svg class="icon icon-shop">
-                                        <use xlink:href="assets/img/sprite.svg#shop"></use>
-                                    </svg>
-                                    <div class="b-worktype__title">Интернет-магазин</div>
-                                </div>
-                                <div class="b-worktype__desc"><a class="b-worktype__link" href="#">Подробнее</a>
-                                    <p>Каждый веб-разработчик знает, что такое текст-«рыба».</p>
-                                </div>
-                            </div>
-                            <!-- .b-worktype-->
-                        </div>
-                        <!-- .col-->
+
+
                     </div>
                 </div>
                 <!-- .col-->
