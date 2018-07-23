@@ -10,66 +10,170 @@
  */
 
 ?>
-
- </main>
+<?php $footer_option = get_option('footer'); ?>
+</main>
+<?php if (!empty($footer_option['footer_title'])) { ?>
     <footer class="footer">
-      <div class="row row--gutters">
-        <div class="col col--xl-2 col--xl-offset-2 col--lg-2 col--lg-offset-1 col--xs-6">
-          <h4 class="f-title">Типы сайтов</h4>
-          <ul class="f-list">
-            <li><a href="#">Landing Page</a></li>
-            <li><a href="#">Корпоративный сайт</a></li>
-            <li><a href="#">Сайт-визитка</a></li>
-            <li><a href="#">Интернет-магазин</a></li>
-          </ul>
-          <!-- .f-list-->
+        <div class="row row--gutters">
+            <div class="col col--xl-2  col--lg-2 col--lg-offset-1 col--xs-6">
+                <?php if (!empty($footer_option['footer_title'])) { ?>
+                    <h4 class="f-title"><?php echo $footer_option['footer_title']; ?></h4>
+                <?php } ?>
+
+                <ul class="f-list">
+                    <?php if (!empty($footer_option['footer_elem'])) { ?>
+                        <li>
+                            <a href="<?php echo $footer_option['footer_link']; ?>"><?php echo $footer_option['footer_elem']; ?></a>
+                        </li>
+                    <?php } ?>
+                    <?php if (!empty($footer_option['footer_elem2'])) { ?>
+
+                        <li>
+                            <a href="<?php echo $footer_option['footer_link2']; ?>"><?php echo $footer_option['footer_elem2']; ?></a>
+                        </li>
+                    <?php } ?>
+                    <?php if (!empty($footer_option['footer_elem3'])) { ?>
+                        <li>
+                            <a href="<?php echo $footer_option['footer_link3']; ?>"><?php echo $footer_option['footer_elem3']; ?></a>
+                        </li>
+                    <?php } ?>
+                    <?php if (!empty($footer_option['footer_elem4'])) { ?>
+                        <li>
+                            <a href="<?php echo $footer_option['footer_link4']; ?>"><?php echo $footer_option['footer_elem4']; ?></a>
+                        </li>
+                    <?php } ?>
+                    <?php if (!empty($footer_option['footer_elem45'])) { ?>
+                        <li>
+                            <a href="<?php echo $footer_option['footer_link5']; ?>"><?php echo $footer_option['footer_elem']; ?></a>
+                        </li>
+                    <?php } ?>
+                    <?php if (!empty($footer_option['footer_elem6'])) { ?>
+                        <li>
+                            <a href="<?php echo $footer_option['footer_link6']; ?>"><?php echo $footer_option['footer_elem6']; ?></a>
+                        </li>
+                    <?php } ?>
+                </ul>
+                <!-- .f-list-->
+            </div>
+            <!-- .col-->
+            <div class="col col--xl-2 col--lg-2 col--xs-6">
+                <?php if (!empty($footer_option['footer_title2'])) { ?>
+                    <h4 class="f-title"><?php echo $footer_option['footer_title2']; ?></h4>
+                <?php } ?>
+                <ul class="f-list">
+                    <?php if (!empty($footer_option['footer_elem_service'])) { ?>
+                        <li>
+                            <a href="<?php echo $footer_option['footer_link_service']; ?>"><?php echo $footer_option['footer_elem_service']; ?></a>
+                        </li>
+                    <?php } ?>
+                    <?php if (!empty($footer_option['footer_elem_service2'])) { ?>
+                        <li>
+                            <a href="<?php echo $footer_option['footer_link_service2']; ?>"><?php echo $footer_option['footer_elem_service2']; ?></a>
+                        </li>
+                    <?php } ?>
+                    <?php if (!empty($footer_option['footer_elem_service3'])) { ?>
+                        <li>
+                            <a href="<?php echo $footer_option['footer_link_service3']; ?>"><?php echo $footer_option['footer_elem_service3']; ?></a>
+                        </li>
+                    <?php } ?>
+                    <?php if (!empty($footer_option['footer_elem_service4'])) { ?>
+                        <li>
+                            <a href="<?php echo $footer_option['footer_link_service4']; ?>"><?php echo $footer_option['footer_elem_service4']; ?></a>
+                        </li>
+                    <?php } ?>
+                    <?php if (!empty($footer_option['footer_elem_service5'])) { ?>
+                        <li>
+                            <a href="<?php echo $footer_option['footer_link_service5']; ?>"><?php echo $footer_option['footer_elem_service5']; ?></a>
+                        </li>
+                    <?php } ?>
+                    <?php if (!empty($footer_option['footer_elem_service6'])) { ?>
+                        <li>
+                            <a href="<?php echo $footer_option['footer_link_service6']; ?>"><?php echo $footer_option['footer_elem_service6']; ?></a>
+                        </li>
+                    <?php } ?>
+                </ul>
+                <!-- .f-list-->
+            </div>
+            <!-- .col-->
+            <div class="col col--xl-2 col--lg-2 col--xs-6">
+                <?php if (!empty($footer_option['footer_title3'])) { ?>
+                    <h4 class="f-title"><?php echo $footer_option['footer_title3']; ?></h4>
+                <?php } ?>
+                <ul class="f-list">
+                    <?php if (!empty($footer_option['footer_about'])) { ?>
+                        <li>
+                            <a href="<?php echo $footer_option['footer_link_about']; ?>"><?php echo $footer_option['footer_about']; ?></a>
+                        </li>
+                    <?php } ?>
+                    <?php if (!empty($footer_option['footer_about2'])) { ?>
+                        <li>
+                            <a href="<?php echo $footer_option['footer_link_about2']; ?>"><?php echo $footer_option['footer_about2']; ?></a>
+                        </li>
+                    <?php } ?>
+                    <?php if (!empty($footer_option['footer_about3'])) { ?>
+                        <li>
+                            <a href="<?php echo $footer_option['footer_link_about3']; ?>"><?php echo $footer_option['footer_about3']; ?></a>
+                        </li>
+                    <?php } ?>
+                    <?php if (!empty($footer_option['footer_about4'])) { ?>
+                        <li>
+                            <a href="<?php echo $footer_option['footer_link_about4']; ?>"><?php echo $footer_option['footer_about4']; ?></a>
+                        </li>
+                    <?php } ?>
+                    <?php if (!empty($footer_option['footer_about5'])) { ?>
+                        <li>
+                            <a href="<?php echo $footer_option['footer_link_about5']; ?>"><?php echo $footer_option['footer_about5']; ?></a>
+                        </li>
+                    <?php } ?>
+                    <?php if (!empty($footer_option['footer_about4'])) { ?>
+                        <li>
+                            <a href="<?php echo $footer_option['footer_link_about6']; ?>"><?php echo $footer_option['footer_about6']; ?></a>
+                        </li>
+                    <?php } ?>
+                </ul>
+                <!-- .f-list-->
+            </div>
+            <!-- .col-->
+            <div class="col col--xl-3 col--lg-3 col--xs-6">
+                <?php if (!empty($footer_option['footer_title_contact'])) { ?>
+                    <h4 class="f-title"><?php echo $footer_option['footer_title_contact']; ?></h4>
+                <?php } ?>
+                <div class="f-contacts">
+                    <?php if (!empty($footer_option['footer_tel'])) { ?>
+                        <div class="f-contacts__item">Телефон: <a
+                                    href="tel:<?php echo $footer_option['footer_tel']; ?>"><?php echo $footer_option['footer_tel']; ?></a>
+                        </div>
+                    <?php } ?>
+                    <?php if (!empty($footer_option['footer_tel2'])) { ?>
+                        <div class="f-contacts__item">Телефон: <a
+                                    href="tel:<?php echo $footer_option['footer_tel2']; ?>"><?php echo $footer_option['footer_tel2']; ?></a>
+                        </div>
+                    <?php } ?>
+                    <?php if (!empty($footer_option['footer_address'])) { ?>
+                        <div class="f-contacts__item">Адрес: <?php echo $footer_option['footer_address']; ?></div>
+                    <?php } ?>
+                    <?php if (!empty($footer_option['footer_email1'])) { ?>
+                        <div class="f-contacts__item">E-mail: <a
+                                    href="mailto:<?php echo $footer_option['footer_email1']; ?>"><?php echo $footer_option['footer_email1']; ?></a>
+                        </div>
+                    <?php } ?>
+
+                    <?php if (!empty($footer_option['footer_email2'])) { ?>
+                        <div class="f-contacts__item">E-mail: <a
+                                    href="mailto:<?php echo $footer_option['footer_email2']; ?>"><?php echo $footer_option['footer_email2']; ?></a>
+                        </div>
+                    <?php } ?>
+                </div>
+            </div>
+            <!-- .col-->
         </div>
-        <!-- .col-->
-        <div class="col col--xl-2 col--lg-2 col--xs-6">
-          <h4 class="f-title">Услуги</h4>
-          <ul class="f-list">
-            <li><a href="#">Создание сайтов</a></li>
-            <li><a href="#">Продвижение сайтов</a></li>
-            <li><a href="#">Фирменный стиль</a></li>
-            <li><a href="#">CRM</a></li>
-          </ul>
-          <!-- .f-list-->
-        </div>
-        <!-- .col-->
-        <div class="col col--xl-2 col--lg-2 col--xs-6">
-          <h4 class="f-title">О компании</h4>
-          <ul class="f-list">
-            <li><a href="#">О нас</a></li>
-            <li><a href="#">Портфолио</a></li>
-            <li><a href="#">Контакты</a></li>
-            <li><a href="#">Стоимость</a></li>
-          </ul>
-          <!-- .f-list-->
-        </div>
-        <!-- .col-->
-        <div class="col col--xl-3 col--lg-3 col--xs-6">
-          <h4 class="f-title">Контактная информация</h4>
-          <div class="f-contacts">
-            <div class="f-contacts__item">Телефон: <a href="tel:">8(800) 555-22-22</a></div>
-            <div class="f-contacts__item">Адрес: г. Москва, ул. Сущевский вал, 13</div>
-            <div class="f-contacts__item">E-mail: <a href="mailto:">info@yandex.ru</a></div>
-          </div>
-        </div>
-        <!-- .col-->
-      </div>
-      <!-- .row-->
+        <!-- .row-->
     </footer>
-    <!-- .FOOTER-->
-    <div class="hide modal">
-      <div class="modal-inner"><a data-modal-close href="javascript:;">
-          <svg class="icon icon-close">
-            <use xlink:href="assets/img/sprite.svg#close"></use>
-          </svg></a>
-        <div class="modal-content"></div>
-      </div>
-    </div>
-    <!-- .modal-->
-<?php get_template_part( 'template-parts/blocks/popup'); ?>
+<?php } ?>
+<!-- .FOOTER-->
+
+<!-- .modal-->
+<?php get_template_part('template-parts/blocks/popup'); ?>
 
 
 <?php wp_footer(); ?>

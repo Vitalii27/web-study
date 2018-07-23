@@ -2,11 +2,70 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/wp-content/themes/web/src/scss/partials/_menu-btn.scss" line="3" mnemonic="1" />
-    <bookmark url="file://$PROJECT_DIR$/wp-content/themes/web/template-parts/pages/home.php" line="642" />
+    <bookmark url="file://$PROJECT_DIR$/wp-content/themes/web/template-parts/pages/home.php" line="6" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bbe6aa5-2c9c-4c7b-bdf4-44b1f6970cc3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/contacts-page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/inc/breadcrumbs-function.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/page-site.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/portfolio-page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/seo-page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/service-page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/src/js/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/src/js/url.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/src/scss/partials/_portfolio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/src/scss/partials/form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/template-parts/blocks/breadcrumbs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/advantages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/benefits.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/black-advantages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/comparison.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/contacts-section.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/form-section.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/hero.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/landing-section.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/link-sites.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/map-section.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/portfolio-home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/portfolio-section.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/questions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/ready_bussines.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/result.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/section-about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/section-third.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/seo-gols.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/seo-list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/service-content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/stages-development.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/sub-hero.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/supplement.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/teach-features.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/web/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/web/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/web/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/web/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/web/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/web/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/web/frontend/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/web/frontend/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/web/frontend/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/web/frontend/page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/web/frontend/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/web/frontend/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/web/frontend/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/web/frontend/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/web/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/web/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/web/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/web/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/web/home-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/web/home-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/web/inc/admin/theme-setting.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/web/inc/admin/theme-setting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/web/inc/enqueue.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/web/inc/enqueue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/web/src/js/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/web/src/js/popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/web/src/js/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/web/src/js/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/web/src/scss/partials/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/web/src/scss/partials/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/web/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/web/src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/web/template-parts/blocks/sidebar-nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/web/template-parts/blocks/sidebar-nav.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/web/template-parts/pages/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/web/template-parts/pages/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2018/07/idea1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2018/07/idea2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2018/07/idea3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2018/07/idea4.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +79,95 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page-site.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/web/page-site.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#6#177#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1241">
+              <caret line="73" column="2" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/web/frontend/page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="54" selection-start-line="54" selection-end-line="68" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="breadcrumbs.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/web/template-parts/blocks/breadcrumbs.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="breadcrumbs-function.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/web/inc/breadcrumbs-function.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/web/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2499">
+              <caret line="153" column="54" selection-start-line="153" selection-start-column="54" selection-end-line="153" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/web/template-parts/pages/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="656" column="64" selection-start-line="656" selection-start-column="64" selection-end-line="656" selection-end-column="64" />
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home-page.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/web/home-page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/web/frontend/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="link-sites.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/link-sites.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="120" selection-start-line="20" selection-start-column="120" selection-end-line="20" selection-end-column="120" />
             </state>
           </provider>
         </entry>
@@ -36,7 +179,7 @@
       <find>homeful</find>
       <find>header</find>
       <find>main-menu</find>
-      <find>hide modal</find>
+      <find />
       <find>.s-hero:after</find>
       <find>b-side</find>
       <find>.s-makepath:before</find>
@@ -44,7 +187,30 @@
       <find>.b-workpath.two</find>
       <find>.b-workpaths__row.one</find>
       <find>back</find>
+      <find>b-advantage-item</find>
+      <find>icon-techsupport</find>
+      <find>form-promo</find>
+      <find>form-promo__bt</find>
+      <find>style</find>
+      <find>Homeful</find>
+      <find>file</find>
+      <find>Web</find>
+      <find>/assets/cache/images/portfolio/15aa06ae6aa3d1445797319b6a58d1f2.jpg</find>
+      <find>s-seo-target</find>
+      <find>s-seo-benefit</find>
+      <find>f</find>
+      <find>fill=&quot;none&quot;</find>
+      <find>.s-advantages</find>
     </findStrings>
+    <replaceStrings>
+      <replace>Web</replace>
+      <replace>https://img1.goodfon.ru/wallpaper/big/a/69/kartinka-3d-dikaya-koshka.jpg</replace>
+      <replace />
+      <replace />
+      <replace />
+      <replace />
+      <replace>fill=&quot;#2b559a&quot;</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,36 +218,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-config.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/web/src/scss/partials/app.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/web/src/scss/partials/libs.scss" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/web/src/js/popup.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/web/src/scss/partials/fonts.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/web/template-parts/blocks/menu-btn.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/web/src/scss/partials/_menu-btn.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/web/src/js/detect.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/web/src/scss/partials/_variebles.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/web/src/scss/partials/_swipe-menu.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/web/template-parts/blocks/sidebarr.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/web/home-page.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/web/assets/css/libs.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/web/inc/enqueue.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/assets/images/icons/service-smm.svg" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/assets/images/icons/service-seo-prodvizhenie-s-garantiej.svg" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/assets/images/icons/service-nastrojka-reklamy.svg" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/service-content.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/web/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/web/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/web/src/scss/style.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/web/template-parts/blocks/popup.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/web/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/web/src/scss/partials/popup.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/web/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/web/template-parts/blocks/swipe-menu.php" />
-        <option value="$PROJECT_DIR$/glob.svg" />
-        <option value="$PROJECT_DIR$/wp-content/themes/web/template-parts/blocks/sidebar-nav.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/web/assets/images/icons/diamond.svg" />
-        <option value="$PROJECT_DIR$/wp-content/themes/web/assets/images/icons/comp.svg" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/seo-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/landing-section.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/about.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/section-third.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/ready_bussines.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/stages-development.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/assets/images/icons/uplevel2.svg" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/assets/images/icons/corporate.svg" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/assets/images/icons/click2.svg" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/assets/images/icons/diamond2.svg" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/assets/images/icons/location.svg" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/assets/images/icons/letter.svg" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/assets/images/icons/calendar.svg" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/assets/images/icons/diagram2.svg" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/assets/images/icons/targeting.svg" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/assets/images/icons/shop.svg" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/assets/images/icons/shop2.svg" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/assets/images/icons/visitka.svg" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/assets/images/icons/puzzle.svg" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/assets/images/icons/menu-services-service-sozdanie-sajtov.svg" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/assets/images/icons/megafon2.svg" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/frontend/page.html" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/teach-features.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/assets/images/icons/crm.svg" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/assets/images/icons/fly.svg" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/assets/images/icons/idea.svg" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/assets/images/icons/stats.svg" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/assets/images/icons/newspaper.svg" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/assets/images/icons/full.svg" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/src/js/slider.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/src/js/url.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/src/js/map.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/inc/enqueue.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/src/js/popup.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/comparison.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/assets/images/icons/comp2.svg" />
         <option value="$PROJECT_DIR$/wp-content/themes/web/src/scss/partials/app.scss" />
-        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/page-site.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/breadcrumbs.php" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/inc/breadcrumbs-function.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/template-parts/blocks/breadcrumbs.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/web/template-parts/pages/home.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/home-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/link-sites.php" />
       </list>
     </option>
   </component>
@@ -113,8 +300,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="129" />
+    <option name="y" value="82" />
     <option name="width" value="1400" />
     <option name="height" value="1018" />
   </component>
@@ -149,33 +336,6 @@
               <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="web-wp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-wp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="web-wp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-wp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="web-wp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-wp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="icons" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="web-wp" type="b2602c69:ProjectViewProjectNode" />
@@ -264,6 +424,15 @@
               <item name="template-parts" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="web-wp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-wp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template-parts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sections" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -275,6 +444,15 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\web-wp\wp-content\themes\web\assets\images\icons" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\web-wp\wp-content\themes\web\template-parts\blocks" />
+      <recent name="C:\OpenServer\domains\web-wp\wp-content\themes\web\template-parts" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -305,14 +483,23 @@
       <workItem from="1531860702012" duration="387000" />
       <workItem from="1531891253424" duration="2564000" />
       <workItem from="1531929268516" duration="631000" />
+      <workItem from="1531978698561" duration="159000" />
+      <workItem from="1531980698295" duration="8000" />
+      <workItem from="1532021661548" duration="1453000" />
+      <workItem from="1532101730168" duration="10793000" />
+      <workItem from="1532145728809" duration="18817000" />
+      <workItem from="1532184918502" duration="4004000" />
+      <workItem from="1532236993601" duration="5627000" />
+      <workItem from="1532247090698" duration="11356000" />
+      <workItem from="1532322616612" duration="502000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27495000" />
+    <option name="totallyTimeSpent" value="80214000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -321,9 +508,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2124183" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.19716775" />
       <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16684435" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -345,17 +532,162 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/web/template-parts/pages/home.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web/page-site.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11152">
-          <caret line="656" column="64" selection-start-line="656" selection-start-column="64" selection-end-line="656" selection-end-column="64" />
+        <state relative-caret-position="102">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#6#177#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="2" lean-forward="true" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web/frontend/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="68" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web/inc/breadcrumbs-function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2499">
+          <caret line="153" column="54" lean-forward="true" selection-start-line="153" selection-start-column="54" selection-end-line="153" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web/src/scss/partials/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89437">
+          <caret line="5261" selection-start-line="5261" selection-end-line="5261" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/web/template-parts/pages/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="656" column="64" selection-start-line="656" selection-start-column="64" selection-end-line="656" selection-end-column="64" />
+        <state relative-caret-position="1122">
+          <caret line="66" selection-start-line="66" selection-end-line="66" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/advantages.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web/portfolio-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web/template-parts/blocks/breadcrumbs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/advantages.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web/src/scss/partials/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89437">
+          <caret line="5261" selection-start-line="5261" selection-end-line="5261" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web/portfolio-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web/frontend/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" selection-start-line="54" selection-end-line="68" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2499">
+          <caret line="153" column="54" selection-start-line="153" selection-start-column="54" selection-end-line="153" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="2" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web/page-site.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#6#177#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web/inc/breadcrumbs-function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web/template-parts/blocks/breadcrumbs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web/frontend/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web/template-parts/pages/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web/home-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web/template-parts/sections/link-sites.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="120" selection-start-line="20" selection-start-column="120" selection-end-line="20" selection-end-column="120" />
         </state>
       </provider>
     </entry>

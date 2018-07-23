@@ -87,9 +87,11 @@ var PopUpModule = (function($) {
     }
 }(jQuery));
 
-jQuery(function($) {
+jQuery(function() {
+
+
     PopUpModule.initInline(".js-pop-up");
-    $('.js-pop-up-img').on('click', function() {
+    jQuery('.js-pop-up-img').on('click', function() {
         PopUpModule.initInline(".js-pop-up");
         PopUpModule.initImg('.js-pop-up-img');
     })

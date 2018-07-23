@@ -154,6 +154,11 @@ require get_template_directory() . '/inc/template-functions.php';
 require get_template_directory() . '/inc/enqueue.php';
 
 /**
+ * Breadcrumbs.
+ */
+require get_template_directory() . '/inc/breadcrumbs-function.php';
+
+/**
  * Svg.
  */
 require get_template_directory() . '/inc/add_svg.php';

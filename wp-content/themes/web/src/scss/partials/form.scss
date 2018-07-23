@@ -1,0 +1,23 @@
+.ajax-loader {
+  display: none !important;
+}
+
+.cf7-submit-btn:before {
+  right: 11px;
+}
+
+.cf7-submit-btn {
+  &:hover {
+    background-image: linear-gradient(90deg, #2a5499 0, #bfcfe5);
+    color: $white;
+  }
+}
+.wpcf7-response-output{
+  display: none !important;
+}
+span.wpcf7-not-valid-tip {
+
+  font-size: 13px !important;
+
+  padding-top: 3px !important;
+}
