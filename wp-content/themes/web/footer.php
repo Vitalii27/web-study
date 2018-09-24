@@ -175,7 +175,7 @@
 <!-- .modal-->
 <?php get_template_part('template-parts/blocks/popup'); ?>
 
-
+<?php get_template_part('template-parts/blocks/alert'); ?>
 <?php wp_footer(); ?>
 
 </body>

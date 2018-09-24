@@ -2,10 +2,10 @@
 function wptuts_the_breadcrumb(){
     global $post;
     if(!is_home()){
-        echo '<li><a href="'.site_url().'">Главная</a></li> <li> / </li> ';
+        echo '<li><a href="'.site_url().'">Главная</a></li> <li> | </li> ';
         if(is_single()){ // posts
             the_category(', ');
-            echo " <li> / </li> ";
+            echo " <li> | </li> ";
             echo '<li>';
             the_title();
             echo '</li>';

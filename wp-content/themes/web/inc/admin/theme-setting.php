@@ -48,6 +48,12 @@ if (!class_exists('Web_Settings_API')):
                 array(
                     'id' => 'sidebar',
                     'title' => __('Сайтбар', 'Web')
+                ), array(
+                    'id' => 'popup',
+                    'title' => __('Форма', 'Web')
+                ), array(
+                    'id' => 'popup-question',
+                    'title' => __('Форма "Задать вопрос"', 'Web')
                 )
 
 
@@ -400,6 +406,28 @@ if (!class_exists('Web_Settings_API')):
                         'type' => 'text',
                         'default' => '',
                     ),
+                ),
+                'popup' => array(
+                    array(
+                        'name' => 'popup-text-title',
+                        'label' => __('Заголовок', 'Web'),
+                        'type' => 'text',
+                        'default' => '',
+                    ), array('name' => 'popup-shordcode-form',
+                        'label' => __('Шорткод формы', 'Web'),
+                        'type' => 'text',
+                        'default' => '',)
+                ),
+                'popup-question' => array(
+                    array(
+                        'name' => 'popup-text-title2',
+                        'label' => __('Заголовок', 'Web'),
+                        'type' => 'text',
+                        'default' => '',
+                    ), array('name' => 'popup-shordcode-form2',
+                        'label' => __('Шорткод формы', 'Web'),
+                        'type' => 'text',
+                        'default' => '',)
                 )
             );
 

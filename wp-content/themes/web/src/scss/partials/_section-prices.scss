@@ -1,0 +1,75 @@
+.section--prices {
+  .col--xl-4 {
+    .b-worktype {
+      max-width: 365px;
+      margin: 0 auto;
+    }
+  }
+  .b-worktype__header {
+    padding-bottom: 55px;
+  }
+  h5{
+    color: #7b9bcf;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  ul{
+    text-align: left;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10px 18px 0;
+  }
+  li{
+    margin-top: 15px;
+    list-style: disc;
+
+  }
+  .b-worktype__price{
+    font-size: 36px;
+    color: #ffffff;
+    margin-top: 36px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    span{
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+
+}
+
+.seo_item-title{
+  color: #28529b;
+  font-size: 24px;
+
+  font-weight: 600;
+}
+.seo_item-price{
+  flex-basis: 49%;
+  width: 49%;
+  margin-top: 50px;
+  ul{
+    margin-top: 15px;
+    li{
+      margin-top: 10px;
+      list-style: none;
+      font-size: 18px;
+      color: #000000;
+    }
+  }
+}
+.seo_list-price{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+.section-price-desc{
+  padding-top: 27px;
+}
+@media only screen and (max-width: $screen-sm-max) {
+  .seo_item-price{
+    width: 100%;
+    flex-basis: 100%;
+  }
+}

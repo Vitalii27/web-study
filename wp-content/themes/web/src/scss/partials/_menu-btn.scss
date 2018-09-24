@@ -98,19 +98,18 @@ $menu-btn-color--active: $white;
   }
 }
 
-@media only screen and (max-width: $screen-sm-max) {
-  .menu-btn {
-    display: inline-block;
-    top: 1.5rem;
-  }
-}
 
-@media only screen and (max-width: $screen-xs-max) {
+
+@media only screen and (max-width: $screen-md-max) {
+  .menu-btn {
+
+  }
   .menu-btn {
     width: 5.8rem;
     height: 5.8rem;
-    top: 1rem;
     right: 1rem;
+    display: inline-block;
+    top: .5rem;
   }
   .menu-btn_inner {
     width: 3.1rem;

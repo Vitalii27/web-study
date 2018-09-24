@@ -11,9 +11,10 @@
 
 get_header(); ?>
 <?php get_template_part( './template-parts/blocks/sidebar-nav' ); ?>
-
+<?php get_template_part('./template-parts/blocks/breadcrumbs'); ?>
 <?php get_template_part( './template-parts/sections/service-content' ); ?>
 <?php get_template_part('./template-parts/sections/form-section'); ?>
+<?php get_template_part('./template-parts/sections/section-text'); ?>
 <?php get_footer();?>
 </body>
 

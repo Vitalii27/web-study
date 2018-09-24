@@ -3,7 +3,12 @@
         <div class="col col--xxl-8 col--xxl-offset-2 col--xl-10 col--xl-offset-1">
             <div class="b-target">
                 <?php if (get_field('content_title-page')): ?>
-                    <div class="b-target__title e-title e-title--second"><?php the_field('content_title-page') ?></div>
+                    <div class="site-title-block b-target__title e-title e-title--second"><?php the_field('content_title-page') ?></div>
+                <?php endif; ?>
+                <?php if (get_field('section_text_desc')): ?>
+                    <div class="section-desc-text">
+                        <?php the_field('section_text_desc') ?>
+                    </div>
                 <?php endif; ?>
                 <div class="b-target__body">
                     <div class="row">
@@ -16,7 +21,7 @@
                                         <div class="b-target-item__circle"
                                              style="background-image:url(<?php the_sub_field('content_title-page-icon') ?>);"></div>
                                         <?php if (get_sub_field('content_title-page-text')): ?>
-                                        <div class="b-target-item__title"><?php the_sub_field('content_title-page-text') ?></div>
+                                            <div class="b-target-item__title"><?php the_sub_field('content_title-page-text') ?></div>
                                         <?php endif; ?>
                                     </div>
                                     <!-- .b-target-item-->

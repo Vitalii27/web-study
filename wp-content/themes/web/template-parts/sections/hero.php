@@ -1,5 +1,7 @@
 <div class="s-hero row row--md-center">
-
+    <?php if (get_field('home-hero_bg')): ?>
+        <div class="s-hero__body-bg" style="background-image: url(<?php the_field('home-hero_bg') ?>)"></div>
+    <?php endif; ?>
     <!-- .s-hero__top-->
     <div class="s-hero__body">
         <div class="row">
@@ -14,13 +16,12 @@
                     <?php endif; ?>
 
                     <?php if (have_rows('home_tech')): ?>
-                        <ul>
                             <?php while (have_rows('home_tech')): the_row(); ?>
                                 <?php if (get_sub_field('home_tech_name')): ?>
-                                    <li><?php the_sub_field('home_tech_name') ?><i>*</i></li>
+                                  <?php the_sub_field('home_tech_name') ?>
                                 <?php endif; ?>
                             <?php endwhile; ?>
-                        </ul>
+
 
                     <?php endif; ?>
                     <?php if (get_field('home_gar')): ?>
@@ -34,9 +35,10 @@
     </div>
     <!-- .s-hero__body-->
     <div class="s-hero__bottom">
-        <svg class="icon icon-mouse">
-            <use xlink:href=<?php echo get_template_directory_uri() ?>/assets/images/sprite.svg#mouse"></use>
-        </svg>
+        <?php if (get_field('home_hero_icon_m')): ?>
+            <a href="#comparison" class="icon icon-mouse"><img src="<?php the_field('home_hero_icon_m') ?>" alt="icon"></a>
+        <?php endif; ?>
+
         <div class="row">
             <div class="col col--xxl-2 col--xxl-offset-2 col--xl-3 col--xl-offset-1 col--lg-3 col--lg-offset-1">
                 <div class="b-hero-contacts"><a href="#">

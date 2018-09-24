@@ -1,25 +1,33 @@
+<?php $popup_option = get_option('popup'); ?>
+<?php $popup_question_option = get_option('popup-question'); ?>
+
 <div class="mfp-hide form-popup" id="callback">
     <div class="b-modal">
-        <div class="b-modal__title">Заказать звонок</div>
-        <form class="b-modal__form b-form" action="javascript:;" data-validate>
-            <div class="b-form__group">
-                <input class="b-form__input" type="text" name="name" placeholder="Ваше имя" required>
-            </div>
-            <div class="b-form__group">
-                <input class="b-form__input" type="tel" name="tel" placeholder="Телефон" required>
-            </div>
-            <div class="b-form__group">
-                <label class="checkbox">
-                    <input class="checkbox__input hidden" type="checkbox" name="agreement" required><span class="checkbox__label">
-                <svg class="icon icon-check">
-                  <use xlink:href="assets/img/sprite.svg#check"></use>
-                </svg> Согласен с <a href="#">Политикой конфиденциальности</a></span>
-                </label>
-            </div>
-            <div class="b-form__group">
-                <button class="btn btn--round btn--border-dark" type="submit">Оставить заявку</button>
-            </div>
-        </form>
+        <?php if (!empty($popup_option['popup-text-title'])) { ?>
+
+            <div class="b-modal__title"><?php echo $popup_option['popup-text-title']; ?></div>
+        <?php } ?>
+        <?php if (!empty($popup_option['popup-shordcode-form'])) { ?>
+
+            <?php echo do_shortcode($popup_option['popup-shordcode-form']); ?>
+
+        <?php } ?>
+    </div>
+    <!-- .b-modal-->
+</div>
+
+
+<div class="mfp-hide form-popup" id="question">
+    <div class="b-modal">
+        <?php if (!empty($popup_question_option['popup-text-title2'])) { ?>
+
+            <div class="b-modal__title"><?php echo $popup_question_option['popup-text-title2']; ?></div>
+        <?php } ?>
+        <?php if (!empty($popup_question_option['popup-shordcode-form2'])) { ?>
+
+            <?php echo do_shortcode($popup_question_option['popup-shordcode-form2']); ?>
+
+        <?php } ?>
     </div>
     <!-- .b-modal-->
 </div>

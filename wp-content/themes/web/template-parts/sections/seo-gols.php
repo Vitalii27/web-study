@@ -21,9 +21,14 @@
 
                         <div class="col col--md-4">
                             <div class="b-seo-target">
-                                <svg class="icon icon-lamp">
-                                    <use xlink:href="<?php echo get_template_directory_uri() ?>/assets/images/sprite.svg#lamp"></use>
-                                </svg>
+                                <?php if (get_sub_field('seo_list-img')): ?>
+                                    <img src="<?php the_sub_field('seo_list-img') ?>" alt="icon" class="icon icon-lamp">
+                                <?php endif; ?>
+                                <!--                                <svg class="icon icon-lamp">-->
+                                <!--                                    <use xlink:href="-->
+                                <?php //echo get_template_directory_uri()
+                                ?><!--/assets/images/sprite.svg#lamp"></use>-->
+                                <!--                                </svg>-->
                                 <p><?php the_sub_field('seo_description') ?></p>
                             </div>
                         </div>

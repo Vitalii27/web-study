@@ -1,9 +1,7 @@
 <div class="s-content">
     <?php if (have_rows('portfolio_page_main_reap')):
         ?>
-        <?php if (get_field('portfolio_page_main')): ?>
-        <div class="e-title"><?php the_field('portfolio_page_main') ?></div>
-    <?php endif; ?>
+
         <div class="s-works row">
             <div class="col col--xxl-8 col--xxl-offset-2 col--xl-10 col--xl-offset-1">
 
@@ -14,7 +12,7 @@
                         ?>
                         <div class="s-works__col col col--md-6">
                             <?php if (get_sub_field('portfolio_page_main_img')): ?>
-                                <a target="_blank" class="b-portfolio"
+                                <a  class="b-portfolio"
                                    style="background-image:url(<?php the_sub_field('portfolio_page_main_img') ?>);"
                                    href="<?php the_sub_field('portfolio_page_main_link') ?>">
                                     <div class="b-portfolio__body">

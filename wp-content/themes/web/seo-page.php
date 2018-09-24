@@ -17,11 +17,15 @@ get_header(); ?>
 <?php get_template_part('./template-parts/sections/seo-gols'); ?>
 <?php get_template_part('./template-parts/sections/seo-list'); ?>
 
-<?php get_template_part('./template-parts/sections/benefits'); ?><?php get_template_part('./template-parts/sections/supplement'); ?>
+<?php get_template_part('./template-parts/sections/benefits'); ?>
+
+<?php get_template_part('./template-parts/sections/supplement'); ?>
+<?php get_template_part('./template-parts/sections/section-prices'); ?>
+<?php get_template_part('./template-parts/sections/audit'); ?>
 
 
-<!-- .b-line-->
 
+<?php get_template_part('./template-parts/sections/section-text'); ?>
 <?php get_template_part('./template-parts/sections/map-section'); ?>
 <?php get_footer(); ?>
 

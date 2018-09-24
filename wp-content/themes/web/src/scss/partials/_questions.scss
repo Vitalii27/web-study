@@ -1,0 +1,101 @@
+
+.question-section {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  line-height: 1.4;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  //.container-question {
+  //  margin-left: -150px;
+  //}
+  .slider_btn {
+    font-size: 3rem;
+    z-index: 30;
+    color: #ffffff;
+    transition: color .25s;
+    transform: translateY(30%);
+    &:hover {
+      color: #2d579b;
+    }
+
+  }
+  .e-title {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .question-section_question {
+    background-color: #2d579b;
+    border-radius: 15px;
+    padding: 20px 30px;
+    color: #ffffff;
+    position: relative;
+    &:before {
+      content: '';
+      display: block;
+      width: 0;
+      height: 0;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-top: 14px solid #2d579b;
+      position: absolute;
+      bottom: -13px;
+    }
+  }
+  .question-section_item {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .question-section_block {
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: 750px;
+    margin: 0 auto;
+
+  }
+  .question-section_text {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px 30px;
+    color: #000000;
+    margin-top: 30px;
+  }
+  .slider_btn--next {
+    right: -20px;
+  }
+  .slider_btn--prev {
+    left: -20px;
+  }
+  .question-section_btn {
+    border: 1px solid #fff;
+    background-color: transparent;
+    border-radius: 25px;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: inline-block;
+    transition: all .25s;
+    margin: 30px auto 0;
+    &:hover {
+      border-color: #2d579b;
+      background-color: #fff;
+      color: #2d579b;
+
+    }
+  }
+  .question-section_btn-block {
+    text-align: center;
+  }
+}
+
+.question-textarea {
+  min-height: 175px;
+  resize: none;
+  border-radius: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+

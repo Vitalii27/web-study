@@ -26,6 +26,12 @@
                                             <a class="b-worktype__link"
                                                href="<?php the_sub_field('home_business_btn_link') ?>"><?php the_sub_field('home_business_btn_text') ?></a>
                                             <p><?php the_sub_field('home_business_desc') ?></p>
+                                            <?php if (get_sub_field('home_business_price')): ?>
+                                                <div class="b-worktype__price">
+                                                    <?php the_sub_field('home_business_price') ?><span> рублей</span>
+
+                                                </div>
+                                            <?php endif; ?>
                                         </div>
                                     <?php endif; ?>
                                 </div>
@@ -42,4 +48,5 @@
         </div>
         <!-- .row-->
     </div>
+</div>
     <!-- .S-WORKTYPES-->

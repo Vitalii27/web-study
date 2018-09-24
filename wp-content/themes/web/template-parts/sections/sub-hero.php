@@ -1,4 +1,4 @@
-<div class="s-promo s-promo--thin">
+<div class="s-promo s-promo--thin" id="comparison">
     <div class="row">
         <div class="col col--xxl-8 col--xxl-offset-2 col--xl-10 col--xl-offset-1">
             <div class="b-promo b-promo--prime">
