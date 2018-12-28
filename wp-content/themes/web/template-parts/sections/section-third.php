@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col col--xxl-8 col--xxl-offset-2 col--xl-10 col--xl-offset-1">
 
-                <div class="e-title e-title--light text--xs-center">Веб-студия Ромашка совместила <strong>уникальный дизайн и передовые технологии</strong> в маркетинге</div>
+                <div class="e-title e-title--light text--xs-center">Веб-студия MARKETING BRAINSTORMING совместила <strong>уникальный дизайн и передовые технологии</strong> в маркетинге</div>
                 <div class="s-makepath__subtitle">Мы создаем сайты с учетом:</div>
 
         </div>

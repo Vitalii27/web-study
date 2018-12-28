@@ -51,7 +51,13 @@
 .flipper {
   position: relative;
 }
-
+.portfolio-img{
+  padding-top: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: transform .25s;
+}
 .back {
   transition: all .25s;
   opacity: 0;

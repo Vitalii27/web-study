@@ -3,18 +3,18 @@
         ?>
 
         <div class="s-works row">
-            <div class="col col--xxl-8 col--xxl-offset-2 col--xl-10 col--xl-offset-1">
+            <div class="col col--xxl-10 col--xxl-offset-2 col--xl-10 col--xl-offset-1">
 
                 <div class="s-works__body row">
 
                     <?php while (have_rows('portfolio_page_main_reap')):
                         the_row();
                         ?>
-                        <div class="s-works__col col col--md-6">
+                        <div class="s-works__col col col--md-4">
                             <?php if (get_sub_field('portfolio_page_main_img')): ?>
-                                <a  class="b-portfolio"
-                                   style="background-image:url(<?php the_sub_field('portfolio_page_main_img') ?>);"
-                                   href="<?php the_sub_field('portfolio_page_main_link') ?>">
+                                <a class="b-portfolio" href="<?php the_sub_field('portfolio_page_main_link') ?>">
+                                    <div class="portfolio-img"
+                                         style="background-image:url(<?php the_sub_field('portfolio_page_main_img') ?>);"></div>
                                     <div class="b-portfolio__body">
                                         <?php if (get_sub_field('portfolio_page_main_name')): ?>
                                             <div class="b-portfolio__title"><?php the_sub_field('portfolio_page_main_name') ?></div>

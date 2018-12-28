@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col col--xl-10 col--xl-offset-1">
 
-            <div class="e-title text--xs-center">Этапы разработки</div>
+            <div class="e-title text--xs-center">Этапы разработки сайта</div>
 
             <div class="b-workpaths b-workpaths--new">
                 <div class="b-woekpaths_item">

@@ -22,7 +22,7 @@ function get_js() {
 	wp_enqueue_script('modernizr', get_template_directory_uri() . '/assets/vendors/modernizr-2.8.3.min.js', null, false, false);
 	wp_enqueue_script('jquery', 'http://code.jquery.com/jquery-1.12.0.min.js', null, false, false);
 	wp_enqueue_script('magnific', 'https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js', null, false, true);
-	wp_enqueue_script('map', '//api-maps.yandex.ru/2.1/?lang=ru_RU', null, false, true);
+//	wp_enqueue_script('map', '//api-maps.yandex.ru/2.1/?lang=ru_RU', null, false, true);
 	wp_enqueue_script('device-js', get_template_directory_uri() . '/assets/vendors/device.js', null, false, true);
 	wp_enqueue_script('waypoints', get_template_directory_uri() . '/assets/vendors/waypoints/waypoints.min.js', array('jquery'), false, true);
 	wp_enqueue_script('slick-js', get_template_directory_uri() . '/assets/vendors/slick/slick.js', array('jquery'), false, true);

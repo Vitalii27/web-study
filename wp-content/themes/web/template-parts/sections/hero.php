@@ -8,7 +8,7 @@
             <div class="col col--xxl-6 col--xxl-offset-5 col--xl-6 col--xl-offset-5 col--lg-7 col--lg-offset-5 col--md-7 col--md-offset-5">
                 <div class="b-hero">
                     <?php if (get_field('home_title')): ?>
-                        <h1><?php the_field('home_title') ?></h1>
+                        <h2><?php the_field('home_title') ?></h2>
                     <?php endif; ?>
                     <?php if (get_field('home_subtitle')): ?>
 

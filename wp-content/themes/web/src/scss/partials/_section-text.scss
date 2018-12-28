@@ -20,3 +20,17 @@
 .site-title-block{
   margin-bottom: 30px;
 }
+
+.shadow-text--light {
+  text-shadow: 1px 1px 0px #000, 1px 1px 2px #000;
+
+}
+.section-text_content{
+  ul{
+    margin-left: 3rem;
+    line-height: 1.5;
+    li{
+      list-style: disc;
+    }
+  }
+}

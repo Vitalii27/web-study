@@ -33,9 +33,6 @@
                   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<!--<p class="browsehappy">Вы используете <strong>устаревший</strong> браузер. Пожалуйста <a href="http://browsehappy.com/"-->
-<!--                                                                                         target="_blank">обновите ваш-->
-<!--    браузер</a> чтобы воспользоваться всем функционалом сайта.</p><![endif]-->-->
 <?php get_template_part('./template-parts/blocks/menu-btn'); ?>
 
 <?php if( is_front_page() ) { ?>

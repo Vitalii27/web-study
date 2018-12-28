@@ -13,12 +13,10 @@
                             </p>
                         </div>
                     </div>
-                    <?php if (get_field('section_form_shord')): ?>
 
-                        <div class="col--lg-5 col--md-5 col--sm-6 col--xs-12">
-                            <?php echo do_shortcode(get_field('section_form_shord')); ?>
-                        </div>
-                    <?php endif; ?>
+                    <div class="col--lg-5 col--md-5 col--sm-6 col--xs-12">
+                        <?php echo do_shortcode('[contact-form-7 id="6" html_id="section-form" title="Контактная форма (секция)"]'); ?>
+                    </div>
                 </div>
             </div>
         </div>

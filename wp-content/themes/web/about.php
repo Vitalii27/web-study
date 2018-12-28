@@ -17,7 +17,7 @@ get_header(); ?>
 <?php get_template_part('./template-parts/sections/form-section'); ?>
 <?php get_template_part('./template-parts/sections/black-advantages'); ?>
 <?php get_template_part('./template-parts/sections/result'); ?>
-<?php get_template_part('./template-parts/sections/section-text'); ?>
+<?php //get_template_part('./template-parts/sections/section-text'); ?>
 <?php get_template_part('./template-parts/sections/map-section'); ?>
 <?php get_footer(); ?>
 
